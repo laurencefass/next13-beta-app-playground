@@ -6,6 +6,56 @@ export type Item = {
 
 export const demos: { name: string; items: Item[] }[] = [
   {
+    name: 'Intro',
+    items: [
+      {
+        name: 'Server component',
+        slug: 'intro/basic-sc',
+        description: 'Basic server side component',
+      },
+      {
+        name: 'With file',
+        slug: 'intro/with-file',
+        description: 'Server side component reading directly from file',
+      },
+      {
+        name: 'With children',
+        slug: 'intro/with-children',
+        description: 'Server side component rendering children',
+      },
+      {
+        name: 'With error',
+        slug: 'intro/with-error',
+        description: 'Triggering error boundaries',
+      },
+      {
+        name: 'route groups',
+        slug: 'intro/route-groups',
+        description: 'layout grouping with route groups',
+      },
+      {
+        name: 'With props',
+        slug: 'intro/with-props',
+        description: 'Server side component rendering props',
+      },
+      {
+        name: 'suspense',
+        slug: 'intro/suspense',
+        description: 'basic async suspense demo',
+      },
+      {
+        name: 'fetch cacheing',
+        slug: 'intro/fetch-cache',
+        description: 'fetch cacheing',
+      },
+      {
+        name: 'nested suspense',
+        slug: 'intro/nested-suspense',
+        description: 'nested async suspense demo',
+      },
+    ],
+  },
+  {
     name: 'Layouts',
     items: [
       {

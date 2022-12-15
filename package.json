@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "dev": "next dev",
+    "dev": "next dev -p 3201",
     "lint": "next lint",
     "lint-staged": "lint-staged",
     "prettier": "prettier --write --ignore-unknown .",
@@ -30,8 +30,10 @@
     "date-fns": "2.29.3",
     "dinero.js": "2.0.0-alpha.8",
     "next": "13.0.3-canary.4",
+    "random-words": "1.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "server-only": "0.0.1",
     "styled-components": "6.0.0-beta.2",
     "use-count-up": "3.0.1"
   },
